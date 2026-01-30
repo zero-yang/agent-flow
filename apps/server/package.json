@@ -1,0 +1,26 @@
+{
+  "name": "@agent-flow/server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "nest start --watch",
+    "build": "nest build",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "@agent-flow/shared": "workspace:*",
+    "@nestjs/common": "^10.4.2",
+    "@nestjs/core": "^10.4.2",
+    "@nestjs/platform-express": "^10.4.2",
+    "dotenv": "^16.4.5",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.2",
+    "@nestjs/schematics": "^10.1.3",
+    "@nestjs/testing": "^10.4.2",
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
