@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from "@nestjs/common";
-import { RunEvent, WorkflowDef } from "@agent-flow/shared";
+import type { RunEvent, WorkflowDef } from "@agent-flow/shared";
 import { WorkflowsService } from "../workflows/workflows.service";
 import { RunStore, RunState } from "./store/run-store";
 import { RunExecutor } from "./runtime/executor";

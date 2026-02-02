@@ -5,5 +5,8 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "lint": "pnpm --filter @agent-flow/shared run build && pnpm --filter @agent-flow/server run build && pnpm --filter @agent-flow/web run build"
+  }
 }

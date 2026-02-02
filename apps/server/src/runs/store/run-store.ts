@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { Subject } from "rxjs";
-import { RunEvent, WorkflowDef } from "@agent-flow/shared";
+import type { RunEvent, WorkflowDef } from "@agent-flow/shared";
 import { createId } from "../../common/id";
 
 export type RunState = "running" | "succeeded" | "failed";

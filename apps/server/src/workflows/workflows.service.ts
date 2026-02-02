@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { WorkflowDef } from "@agent-flow/shared";
+import type { WorkflowDef } from "@agent-flow/shared";
 
 @Injectable()
 export class WorkflowsService {

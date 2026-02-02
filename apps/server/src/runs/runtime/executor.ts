@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { RunEvent } from "@agent-flow/shared";
+import type { RunEvent } from "@agent-flow/shared";
 import { RunStore } from "../store/run-store";
 import { ToolRegistry } from "./tools/registry";
 import { OpenAIClient } from "./llm/openai-client";
